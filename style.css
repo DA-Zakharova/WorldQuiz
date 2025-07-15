@@ -1,0 +1,62 @@
+body {
+    background-image: url("geo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 580px;
+    margin: 30px;
+    padding: 15px;
+    border-radius: 5px;
+    color: black;
+    overflow: hidden;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 16px;
+}
+
+.block {
+    padding: 10px;
+}
+
+#btn {
+    background-color: #76b78b;
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-size: 17px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+#result {
+    margin: auto;
+    margin-top: 10px;
+    font-size: 17px;
+    color: #901E3E;
+}
+
+
+@media all and (max-width: 500px) {
+    body {
+        background-image: url("geoMob.jpg");
+    }
+
+    #main {
+        font-size: 13px;
+        padding: 7px;
+    }
+
+    #btn, #result {
+        font-size: 14px;
+    }
+}

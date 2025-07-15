@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Квиз</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alumni+Sans+SC:ital,wght@0,100..900;1,100..900&family=Amatic+SC:wght@400;700&family=Caveat:wght@400..700&family=Comfortaa:wght@300..700&family=Dancing+Script:wght@500&family=Edu+NSW+ACT+Hand+Pre:wght@400..700&family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Open+Sans:wght@300&family=Oswald:wght@200..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Playwrite+CU:wght@100..400&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Savate:ital,wght@0,200..900;1,200..900&family=Shadows+Into+Light&family=Tagesschrift&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <form id="main">
+        <div class="block">
+            <label>Вопрос 1. Какая страна имеет наибольшее количество соседей?</label>
+            <br>
+            <input type="radio" name="question1">Китай
+            <input type="radio" name="question1">Бразилия
+            <input type="radio" name="question1" id="answer1">Россия
+            <input type="radio" name="question1">Германия
+            <input type="radio" name="question1">Индия
+        </div>
+
+        <div class="block">
+            <label>Вопрос 2. В какой стране находится самый высокий водопад в мире — Анхель?</label>
+            <br>
+            <input type="radio" name="question2">Колумбия
+            <input type="radio" name="question2" id="answer2">Венесуэла
+            <input type="radio" name="question2">Перу
+            <input type="radio" name="question2">Чили
+            <input type="radio" name="question2">Аргентина
+        </div>
+
+        <div class="block">
+            <label>Вопрос 3. В какой стране находится город с самым длинным официальным названием?</label>
+            <br>
+            <input type="radio" name="question3">Япония
+            <input type="radio" name="question3">Индия
+            <input type="radio" name="question3" id="answer3">Таиланд
+            <input type="radio" name="question3">Филипины
+            <input type="radio" name="question3">Южная Корея
+        </div>
+
+        <div class="block">
+            <label>Вопрос 4. Какая страна первой в мире предоставила женщинам право голосовать на выборах?</label>
+            <br>
+            <input type="radio" name="question4">Норвегия
+            <input type="radio" name="question4" id="answer4">Новая Зеландия
+            <input type="radio" name="question4">Канада
+            <input type="radio" name="question4">Финляндия
+            <input type="radio" name="question4">США
+        </div>
+
+        <div class="block">
+            <label>Вопрос 5. У какой из этих стран нет официальной столицы?</label>
+            <br>
+            <input type="radio" name="question5">Монако
+            <input type="radio" name="question5" id="answer5">Науру
+            <input type="radio" name="question5">Лихтенштейн
+            <input type="radio" name="question5">Сейшелы
+            <input type="radio" name="question5">Ватикан
+        </div>
+
+        <div class="block">
+            <label>Вопрос 6. В какой стране находится музей, посвящённый исключительно неудачным изобретениям?</label>
+            <br>
+            <input type="radio" name="question6">Германия
+            <input type="radio" name="question6">Япония
+            <input type="radio" name="question6" id="answer6">Швеция
+            <input type="radio" name="question6">США
+            <input type="radio" name="question6">Италия
+        </div>
+
+        <button id="btn" type="submit">&#127757; Отправить ответы &#127759;</button>
+        <p id="result"></p>
+    </form>
+<script src="script.js"></script>
+</body>
+</html>
