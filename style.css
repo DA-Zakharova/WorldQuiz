@@ -45,6 +45,11 @@ body {
     color: #901E3E;
 }
 
+.source {
+    font-size: 10px;
+    align-self: center;
+}
+
 
 @media all and (max-width: 500px) {
     body {
