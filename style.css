@@ -64,4 +64,8 @@ body {
     #btn, #result {
         font-size: 14px;
     }
+
+    .source {
+        font-size: 8px;
+    }
 }
